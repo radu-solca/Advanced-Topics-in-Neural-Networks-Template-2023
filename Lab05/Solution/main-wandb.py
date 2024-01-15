@@ -60,14 +60,7 @@ wandb_sweep_config = {
             'max': 0.01
         },
         'batch_size': {
-            'values': [64, 128, 256, 512]
-        },
-        'optimizer':{
-            'values': ['adam', 'sgd', 'rmsprop', 'adagrad']
-            # 'values': ['samsgd']
-        },
-        'hidden_layers':{
-            'values': [[512, 256, 128], [512, 256, 128, 64], [1024, 512, 256, 128, 64, 32]]
+            'values': [32, 64, 128]
         }
     }
 }
